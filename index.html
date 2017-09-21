@@ -3,27 +3,19 @@
 <head>
 <style>
 	html, body{
-		max-width: 100%;
-		overflow: hidden;
 		margin: 0;
+		background-color: #455A64;
 	}
 	#header{
-		transform: scale(1.2);
-		width: auto;
+		background-image: url("images/web_under_construction.png");
+		background-position: center;
+		position: absolute;
+		width: 100%;
 		height: 100%;
-		position: relative;
-	}
-	
-	@media screen and (max-width: 960px){
-		#header{
-			transform: scale(1.4);
-			width: 100%;
-			height: auto;
-		}
 	}
 </style>
 </head>
 <body>
-<img id="header" src="images/web_under_construction.png">
+<div id="header"></div>
 </body>
 </html>

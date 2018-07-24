@@ -31,7 +31,7 @@ $(function () {
 
 	refresh();
 	var count = 0;
-	var inter setInterval(function(){
+	var inter = setInterval(function(){
 		if(count++ == 3){
 			clearInterval(inter);
 	}, 500);

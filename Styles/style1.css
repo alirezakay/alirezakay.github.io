@@ -167,7 +167,7 @@ div .tab button.active {
 }
 
 #Profile{
-    margin-top: 25px;
+    margin-top: 0;
     background-color: rgba(170, 170, 170, 0.1);
     min-height: 300px;
     border: groove #aaa 1px;

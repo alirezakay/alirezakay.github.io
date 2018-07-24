@@ -116,6 +116,8 @@ function setProfileTopMargin() {
 function refresh() {
     setProfileTopMargin();
     setTabBtnsToCenter();
+	setBackgroundParticleHeight(0)
+
     $(window).resize(function () {
         setTabBtnsToCenter();
 

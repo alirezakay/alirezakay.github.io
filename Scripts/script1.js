@@ -30,7 +30,11 @@ $(function () {
     });
 
 	refresh();
-	setTimeout(	setProfileTopMargin, 1500);
+	var count = 0;
+	var inter setInterval(function(){
+		if(count++ == 3){
+			clearInterval(inter);
+	}, 500);
 
 });
 

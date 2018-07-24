@@ -7,7 +7,7 @@ $(function () {
 
 
     ///////////////////////////////////////////////////////////
-    refresh();
+    //refresh();
 
     $("a").on("click", function (event) {
         var hash = this.hash;
@@ -29,7 +29,7 @@ $(function () {
 
     });
 
-	setTimeOut(refresh, 500);
+	setTimeOut(refresh, 2500);
 
 });
 

@@ -102,8 +102,8 @@ function setBackgroundParticleHeight(time) {
 }
 
 function setProfileTopMargin() {
-    var windowHeight = $(window).height();
-    var elementsInFirstViewHeight = $("#Profile").outerHeight() + $(".tab").outerHeight(true);
+    var windowHeight = $(window).outerHeight();
+    var elementsInFirstViewHeight = $("#Profile").outerHeight() + $(".tab").outerHeight();
     var topMarginOfProfile = windowHeight - elementsInFirstViewHeight;
     if (topMarginOfProfile > 0){
         $("#Profile").css("margin-top", topMarginOfProfile);

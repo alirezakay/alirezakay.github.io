@@ -114,9 +114,7 @@ function setProfileTopMargin() {
 }
 
 function refresh() {
-    setProfileTopMargin();
     setTabBtnsToCenter();
-	setBackgroundParticleHeight(0)
 
     $(window).resize(function () {
         setTabBtnsToCenter();
@@ -126,6 +124,8 @@ function refresh() {
         //set the particle background height dynamically
         setBackgroundParticleHeight(0)
     });
+	
+	setProfileTopMargin();
 }
 
 

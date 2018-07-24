@@ -30,11 +30,7 @@ $(function () {
     });
 
 
-    $("#ProfileImageContainer").animate({opacity: "1"},500,
-        function () {
-            $(this).css("transform","rotateX(0deg)");
-        }
-    );
+    
 
 });
 

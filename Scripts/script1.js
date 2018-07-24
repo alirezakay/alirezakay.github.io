@@ -30,6 +30,7 @@ $(function () {
     });
 
 	refresh();
+	setTimeout(	setProfileTopMargin, 500);
 
 });
 

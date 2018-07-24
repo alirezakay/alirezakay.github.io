@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="C:/xampp/php/php.exe" phpunit_phar_path="" />
+      <phpunit_by_deployment server_id="a566f15a-b21a-482d-86b6-47a263f80b3e" load_method="CUSTOM_LOADER" custom_loader_path="/vender/autoloadaer.php" phpunit_phar_path="" />
+    </phpunit_settings>
+  </component>
+</project>

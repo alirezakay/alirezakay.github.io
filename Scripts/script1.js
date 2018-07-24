@@ -29,7 +29,7 @@ $(function () {
 
     });
 
-	setTimeOut(refresh, 10);
+	refresh();
 
 });
 
@@ -114,8 +114,8 @@ function setProfileTopMargin() {
 }
 
 function refresh() {
-    setTabBtnsToCenter();
     setProfileTopMargin();
+    setTabBtnsToCenter();
     $(window).resize(function () {
         setTabBtnsToCenter();
 

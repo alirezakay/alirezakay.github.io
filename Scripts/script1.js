@@ -29,7 +29,7 @@ $(function () {
 
     });
 
-	setTimeOut(refresh, 2500);
+	setTimeOut(refresh, 10);
 
 });
 

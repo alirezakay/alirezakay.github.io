@@ -215,8 +215,8 @@ div .tab button.active {
 }
 
 #ProfileImageContainer img{
-    width: 968px;
-    height: 968px;
+    width: 100%;
+    height: 100%;
     box-shadow: lightgrey 0 0 20px;
 
     transition: all 200ms;

@@ -215,8 +215,8 @@ div .tab button.active {
 }
 
 #ProfileImageContainer img{
-    width: 100%;
-    height: auto;
+    width: 968px;
+    height: 968px;
     box-shadow: lightgrey 0 0 20px;
 
     transition: all 200ms;
@@ -225,7 +225,7 @@ div .tab button.active {
 #ProfileImageContainer img:hover{
 
     filter:brightness(110%);
-    opacity: .98;
+    opacity: .9;
     cursor: pointer;
 }
 

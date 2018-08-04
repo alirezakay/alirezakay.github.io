@@ -266,14 +266,14 @@
 <script>
     /* ---- particles.js config ---- */
     $(function(){ 
+        if ($(window).width() <= 768){
+            $("#particles-js").css("display", "none");
+        }
 		
         dt = new Date();
         $("#age").text(dt.getFullYear() - 1997);
 
         var canvasOrWindow = "window";
-        if ($(window).width() <= 768){
-            canvasOrWindow = "canvas";
-        }
 
         particlesJS("particles-js", {
             "particles": {

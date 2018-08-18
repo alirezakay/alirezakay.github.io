@@ -28,8 +28,15 @@
 </head>
 
 <body>
+	
+<!-- particles.js container -->
+<div id="particles-js"></div>
 
-<div class="text-center" style="position: absolute;display: block; z-index:-1">
+
+
+<div class="container">
+	
+    <div style="position: absolute;display: flex; z-index:-1; justify-content: center;">
 	<h1>alireza kavian</h1>
 	<span>alireza</span>
 	<span>kavian</span>
@@ -40,14 +47,7 @@
 	<span>https://alireza-kavian.github.io</span>
 	<span>brilacasck.ir</span>
 	<span>علیرضا کاویان</span>
-</div>
-
-<!-- particles.js container -->
-<div id="particles-js"></div>
-
-
-
-<div class="container">
+    </div>
 
     <div class="row">
         <div id="Profile">
@@ -330,12 +330,12 @@
 <script>
 $(function(){
 	if ($(window).width() <= 768){
-		$("#particles-js").css("display", "none");
+		$("#particles-js").remove();
 	}
 
 	$(".tablinks").click(function(){
 		$("#particles-js").remove();
-		$(".container").css("background-color", "#9E9E9E");
+		$(".body").css("background-color", "#ddd");
 	});
 
 	dt = new Date();

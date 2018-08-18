@@ -24,7 +24,7 @@
 
 <body>
 
-<div style="display: none">
+<div style="position: absolute;display: block; z-index:-1">
 	<h1>alireza kavian</h1>
 	<span>alireza</span>
 	<span>kavian</span>
@@ -34,6 +34,7 @@
 	<span>front-end developer</span>
 	<span>https://alireza-kavian.github.io</span>
 	<span>brilacasck.ir</span>
+	<span>علیرضا کاویان</span>
 </div>
 
 <!-- particles.js container -->
@@ -231,7 +232,7 @@
             <div class="tabtext">
                 <div class="row my-5 p-4 text-center">
                     <p class="text-center p-4">
-                        You can download my resume <a href="Docs/Alireza-Kavian-Resume.pdf">here</a>
+                        You can download my resume here: <a href="Docs/Alireza-Kavian-Resume.pdf">Alireza Kavian Resume</a>
                     </p>
                 </div>
                 <div class="row">
@@ -270,7 +271,8 @@
         }
 	    
     	$(".tablinks").click(function(){
-	    $("#particles-js").css("display", "none");
+	    $("#particles-js").remove();
+	    $(".container").css("background-color", "#9E9E9E");
 	});
 		
         dt = new Date();
@@ -293,7 +295,7 @@
                 "shape": {
                     "type": "circle",
                     "stroke": {
-                        "width": 0,
+                        "width": 1,
                         "color": "#000000"
                     },
                     "polygon": {
@@ -306,7 +308,7 @@
                     }
                 },
                 "opacity": {
-                    "value": 0.5,
+                    "value": 0.6,
                     "random": false,
                     "anim": {
                         "enable": false,
@@ -320,21 +322,21 @@
                     "random": true,
                     "anim": {
                         "enable": false,
-                        "speed": 40,
+                        "speed": 50,
                         "size_min": 0.1,
                         "sync": false
                     }
                 },
                 "line_linked": {
                     "enable": true,
-                    "distance": 150,
+                    "distance": 100,
                     "color": "#ffffff",
                     "opacity": 0.4,
                     "width": 1
                 },
                 "move": {
                     "enable": true,
-                    "speed": 6,
+                    "speed": 4,
                     "direction": "none",
                     "random": false,
                     "straight": false,
@@ -386,7 +388,7 @@
                     }
                 }
             },
-            "retina_detect": true
+            "retina_detect": false
         });
 		
     })

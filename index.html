@@ -15,10 +15,7 @@
     
     <link rel="stylesheet" href="Styles/style1.css">
 	
-	<script src="Scripts/jquery.min.js"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="Scripts/bootstrap.min.js"></script>
 
 </head>
 
@@ -253,7 +250,10 @@
 
 
 
+<script src="Scripts/jquery.min.js"></script>
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="Scripts/bootstrap.min.js"></script>
 
 <script src='Scripts/particles.min.js'></script>
 <script src='Scripts/stats.min.js'></script>
@@ -265,24 +265,13 @@
 
 <script>
     /* ---- particles.js config ---- */
-    $(function(){ 
-        if ($(window).width() <= 768){
-            $("#particles-js").css("display", "none");
-        }
+    $(function(){
 	    
-    	$(".tablinks").click(function(){
-	    $("#particles-js").remove();
-	    $(".container").css("background-color", "#9E9E9E");
-	});
-		
-        dt = new Date();
-        $("#age").text(dt.getFullYear() - 1997);
-
         var canvasOrWindow = "window";
 
 	particlesJS("particles-js", {
 	  particles: {
-	    number: { value: 80, density: { enable: true, value_area: 800 } },
+	    number: { value: 30, density: { enable: true, value_area: 700 } },
 	    color: { value: "#ffffff" },
 	    shape: {
 	      type: "circle",
@@ -321,8 +310,8 @@
 	  interactivity: {
 	    detect_on: "canvas",
 	    events: {
-	      onhover: { enable: true, mode: "repulse" },
-	      onclick: { enable: true, mode: "push" },
+	      onhover: { enable: false, mode: "repulse" },
+	      onclick: { enable: false, mode: "push" },
 	      resize: true
 	    },
 	    modes: {
@@ -333,10 +322,26 @@
 	      remove: { particles_nb: 2 }
 	    }
 	  },
-	  retina_detect: true
+	  retina_detect: false
 	});
 		
     })
+</script>
+	
+<script>
+$(function(){
+	if ($(window).width() <= 768){
+		$("#particles-js").css("display", "none");
+	}
+
+	$(".tablinks").click(function(){
+		$("#particles-js").remove();
+		$(".container").css("background-color", "#9E9E9E");
+	});
+
+	dt = new Date();
+	$("#age").text(dt.getFullYear() - 1997);
+});
 </script>
 
 

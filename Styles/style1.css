@@ -35,7 +35,7 @@ canvas {
 /* Style the tab */
 div.tab {
     overflow: hidden;
-    background-color: #ccc;
+    background-color: #37474F;
 }
 
 div .tab button {
@@ -163,7 +163,7 @@ div .tab button.active {
 }
 
 .container{
-    background-color: #eee;
+    /*background-color: #eee;*/
 }
 
 #Profile{

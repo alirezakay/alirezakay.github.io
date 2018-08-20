@@ -35,12 +35,12 @@ canvas {
 /* Style the tab */
 div.tab {
     overflow: hidden;
-    background-color: #fff;
+    background-color: inherit;
 }
 
 div .tab button {
     float: left;
-    background-color: inherit;
+    background-color: rgba(170,170,170,0.85);
     border: none;
     /*border: solid 1px green;*/
     /*border-bottom: none;*/
@@ -163,7 +163,7 @@ div .tab button.active {
 }
 
 .container{
-    background-color: #eee;
+    /*background-color: #eee;*/
 }
 
 #Profile{
@@ -173,7 +173,7 @@ div .tab button.active {
     border: groove #aaa 1px;
     border-bottom: solid #fff 1px;
     border-radius: 5px/50px;
-    box-shadow: inset darkgray 0px 0px 20px, lightgrey 0 0 250px;
+    box-shadow: inset darkgray 0px 0px 25px, black 0 0 100px;
 
     position: relative;
     perspective: 500px;

@@ -14,34 +14,40 @@
     <link rel="stylesheet" href="Styles/bootstrap.min.css">
     
     <link rel="stylesheet" href="Styles/style1.css">
-	
+
+
 	<script src="Scripts/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="Scripts/bootstrap.min.js"></script>
 
+	<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
 </head>
 
 <body>
-
-<div style="display: none">
-	<h1>alireza kavian</h1>
-	<span>alireza</span>
-	<span>kavian</span>
-	<span>programmer</span>
-	<span>software engineer</span>
-	<span>computer engineer</span>
-	<span>front-end developer</span>
-	<span>https://alireza-kavian.github.io</span>
-	<span>brilacasck.ir</span>
-</div>
-
+	
 <!-- particles.js container -->
 <div id="particles-js"></div>
 
 
 
 <div class="container">
+	
+    <div style="color: transparent; position: absolute;display: block; z-index:-1; justify-content: center;">
+	<h1>alireza kavian</h1><br/>
+	<div>alireza</div><br/>
+	<div>kavian</div><br/>
+	<div>programmer</div><br/>
+	<div>software engineer</div><br/>
+	<div>computer engineer</div><br/>
+	<div>front-end developer</div><br/>
+        <div><a href="https://alireza-kavian.github.io">Alireza Kavian</a></div><br/>
+	<div>brilacasck.ir</div><br/>
+	<div>علیرضا کاویان</div><br/>
+    </div>
 
     <div class="row">
         <div id="Profile">
@@ -65,9 +71,9 @@
                     <a href="https://t.me/alireza_kay"><i class="fa fa-telegram"></i></a>
                     <a href="https://twitter.com/alireza_kay"><i class="fa fa-twitter"></i></a>
                     <a href="https://facebook.com/alirezakay"><i class="fa fa-facebook-official"></i></a>
-                    <a href="mailto:alireza.kavian7@gmail.com"><i class="fa fa-at"></i></a>
+                    <a href="mailto:kay.alireza@gmail.com"><i class="fa fa-at"></i></a>
                     <a href="https://github.com/alirezakay"><i class="fa fa-github"></i></a>
-                    <a href="https://stackoverflow.com/users/7076130/alireza-kay"><i class="fa fa-stack-overflow"></i></a>
+                    <a href="https://stackoverflow.com/story/alirezakay"><i class="fa fa-stack-overflow"></i></a>
                 </span>
             </div>
 
@@ -235,7 +241,7 @@
             <div class="tabtext">
                 <div class="row my-5 p-4 text-center">
                     <p class="text-center p-4">
-                        You can download my resume <a href="Docs/Alireza-Kavian-Resume.pdf">here</a>
+                        You can download my resume here: <a href="Docs/Alireza-Kavian-Resume.pdf">Alireza Kavian Resume</a>
                     </p>
                 </div>
                 <div class="row">
@@ -257,139 +263,88 @@
 
 
 
-
-<script src='Scripts/particles.min.js'></script>
-<script src='Scripts/stats.min.js'></script>
-
 <script src="Scripts/script1.js"></script>
-
-<!-- <script type="text/javascript" src="./Scripts/bundle.js"></script> -->
 
 
 <script>
     /* ---- particles.js config ---- */
-    $(function(){ 
-        if ($(window).width() <= 768){
-            $("#particles-js").css("display", "none");
-        }
-		
-        dt = new Date();
-        $("#age").text(dt.getFullYear() - 1997);
-
+    $(function(){
+	    
         var canvasOrWindow = "window";
 
-        particlesJS("particles-js", {
-            "particles": {
-                "number": {
-                    "value": 50,
-                    "density": {
-                        "enable": true,
-                        "value_area": 1500
-                    }
-                },
-                "color": {
-                    "value": "#ffffff"
-                },
-                "shape": {
-                    "type": "circle",
-                    "stroke": {
-                        "width": 0,
-                        "color": "#000000"
-                    },
-                    "polygon": {
-                        "nb_sides": 5
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
-                },
-                "opacity": {
-                    "value": 0.5,
-                    "random": false,
-                    "anim": {
-                        "enable": false,
-                        "speed": 1,
-                        "opacity_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 3,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 40,
-                        "size_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 150,
-                    "color": "#ffffff",
-                    "opacity": 0.4,
-                    "width": 1
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 6,
-                    "direction": "none",
-                    "random": false,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": canvasOrWindow,
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 400,
-                        "size": 40,
-                        "duration": 2,
-                        "opacity": 8,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 200,
-                        "duration": 0.4
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true
-        });
+	particlesJS("particles-js", {
+	  particles: {
+	    number: { value: 30, density: { enable: true, value_area: 700 } },
+	    color: { value: "#ffffff" },
+	    shape: {
+	      type: "circle",
+	      stroke: { width: 0, color: "#000000" },
+	      polygon: { nb_sides: 5 },
+	      image: { src: "img/github.svg", width: 100, height: 100 }
+	    },
+	    opacity: {
+	      value: 0.5,
+	      random: false,
+	      anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+	    },
+	    size: {
+	      value: 3,
+	      random: true,
+	      anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+	    },
+	    line_linked: {
+	      enable: true,
+	      distance: 150,
+	      color: "#ffffff",
+	      opacity: 0.4,
+	      width: 1
+	    },
+	    move: {
+	      enable: true,
+	      speed: 6,
+	      direction: "none",
+	      random: false,
+	      straight: false,
+	      out_mode: "out",
+	      bounce: false,
+	      attract: { enable: false, rotateX: 600, rotateY: 1200 }
+	    }
+	  },
+	  interactivity: {
+	    detect_on: "canvas",
+	    events: {
+	      onhover: { enable: false, mode: "repulse" },
+	      onclick: { enable: false, mode: "push" },
+	      resize: true
+	    },
+	    modes: {
+	      grab: { distance: 400, line_linked: { opacity: 1 } },
+	      bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+	      repulse: { distance: 200, duration: 0.4 },
+	      push: { particles_nb: 4 },
+	      remove: { particles_nb: 2 }
+	    }
+	  },
+	  retina_detect: false
+	});
 		
     })
+</script>
+	
+<script>
+$(function(){
+	if ($(window).width() <= 768){
+		$("#particles-js").remove();
+	}
+
+	$(".tablinks").click(function(){
+		$("#particles-js").remove();
+		$(".body").css("background-color", "#90A4AE");
+	});
+
+	dt = new Date();
+	$("#age").text(dt.getFullYear() - 1997);
+});
 </script>
 
 

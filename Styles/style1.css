@@ -173,7 +173,7 @@ div .tab button.active {
     border: groove #aaa 1px;
     border-bottom: solid #fff 1px;
     border-radius: 5px/50px;
-    box-shadow: inset darkgray 0px 0px 20px, lightgrey 0 0 250px;
+    box-shadow: inset darkgray 0px 0px 25px, black 0 0 100px;
 
     position: relative;
     perspective: 500px;

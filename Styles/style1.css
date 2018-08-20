@@ -35,12 +35,12 @@ canvas {
 /* Style the tab */
 div.tab {
     overflow: hidden;
-    background-color: #37474F;
+    background-color: inherit;
 }
 
 div .tab button {
     float: left;
-    background-color: inherit;
+    background-color: rgba(170,170,170,0.85);
     border: none;
     /*border: solid 1px green;*/
     /*border-bottom: none;*/

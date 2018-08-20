@@ -35,6 +35,7 @@ canvas {
 /* Style the tab */
 div.tab {
     overflow: hidden;
+    background-color: #ccc;
 }
 
 div .tab button {

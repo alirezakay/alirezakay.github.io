@@ -5,7 +5,7 @@
 
 body {
     font-family: enFonts1, sans-serif;
-
+	overflow-x: hidden;
     margin: 0;
 }
 

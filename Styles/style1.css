@@ -217,7 +217,7 @@ div .tab button.active {
 #ProfileImageContainer img{
     width: 100%;
     height: auto;
-    min-height: 200px;
+    /*min-height: 200px;*/
     box-shadow: lightgrey 0 0 20px;
 
     transition: all 200ms;
@@ -276,7 +276,7 @@ a .fa-telegram:hover{
 
 #Footer{
     border-top: outset #283593 2px;
-    padding: 30px 0;
+    padding: 60px 0 30px 0;
     color: #aaa;
     background-color: #263238;
 }
@@ -291,6 +291,6 @@ a .fa-telegram:hover{
 
 @media only screen and (min-width: 768px) and (max-width: 1200px){
     #ProfileImageContainer img{
-    	min-height: unset;
+    	height: auto;
     }
 } 

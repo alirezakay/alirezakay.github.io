@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1e385bc.chunk.css",
-    "main.js": "/static/js/main.b2e6e88d.chunk.js",
-    "main.js.map": "/static/js/main.b2e6e88d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b910407d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b910407d.js.map",
-    "static/js/2.5d691298.chunk.js": "/static/js/2.5d691298.chunk.js",
-    "static/js/2.5d691298.chunk.js.map": "/static/js/2.5d691298.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7c64322a5bcefd190df40b284a4eb918.js": "/precache-manifest.7c64322a5bcefd190df40b284a4eb918.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c1e385bc.chunk.css.map": "/static/css/main.c1e385bc.chunk.css.map",
-    "static/js/2.5d691298.chunk.js.LICENSE": "/static/js/2.5d691298.chunk.js.LICENSE",
-    "static/media/index.css": "/static/media/Roboto.df7b648c.ttf",
-    "static/media/course.jpg": "/static/media/course.3f9b77c2.jpg",
-    "static/media/logo.png": "/static/media/logo.ebff7904.png"
+    "main.css": "/demo/farnaz-sheikhi/static/css/main.3a56cfc6.chunk.css",
+    "main.js": "/demo/farnaz-sheikhi/static/js/main.afde7210.chunk.js",
+    "main.js.map": "/demo/farnaz-sheikhi/static/js/main.afde7210.chunk.js.map",
+    "runtime-main.js": "/demo/farnaz-sheikhi/static/js/runtime-main.45a7cbd6.js",
+    "runtime-main.js.map": "/demo/farnaz-sheikhi/static/js/runtime-main.45a7cbd6.js.map",
+    "static/js/2.5d691298.chunk.js": "/demo/farnaz-sheikhi/static/js/2.5d691298.chunk.js",
+    "static/js/2.5d691298.chunk.js.map": "/demo/farnaz-sheikhi/static/js/2.5d691298.chunk.js.map",
+    "index.html": "/demo/farnaz-sheikhi/index.html",
+    "precache-manifest.9bab0db91cac4e92f4f22e9866a4890d.js": "/demo/farnaz-sheikhi/precache-manifest.9bab0db91cac4e92f4f22e9866a4890d.js",
+    "service-worker.js": "/demo/farnaz-sheikhi/service-worker.js",
+    "static/css/main.3a56cfc6.chunk.css.map": "/demo/farnaz-sheikhi/static/css/main.3a56cfc6.chunk.css.map",
+    "static/js/2.5d691298.chunk.js.LICENSE": "/demo/farnaz-sheikhi/static/js/2.5d691298.chunk.js.LICENSE",
+    "static/media/index.css": "/demo/farnaz-sheikhi/static/media/Roboto.df7b648c.ttf",
+    "static/media/course.jpg": "/demo/farnaz-sheikhi/static/media/course.3f9b77c2.jpg",
+    "static/media/logo.png": "/demo/farnaz-sheikhi/static/media/logo.ebff7904.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b910407d.js",
+    "static/js/runtime-main.45a7cbd6.js",
     "static/js/2.5d691298.chunk.js",
-    "static/css/main.c1e385bc.chunk.css",
-    "static/js/main.b2e6e88d.chunk.js"
+    "static/css/main.3a56cfc6.chunk.css",
+    "static/js/main.afde7210.chunk.js"
   ]
 }

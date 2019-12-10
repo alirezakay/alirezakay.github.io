@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1e385bc.chunk.css",
+    "main.js": "/static/js/main.b2e6e88d.chunk.js",
+    "main.js.map": "/static/js/main.b2e6e88d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b910407d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b910407d.js.map",
+    "static/js/2.5d691298.chunk.js": "/static/js/2.5d691298.chunk.js",
+    "static/js/2.5d691298.chunk.js.map": "/static/js/2.5d691298.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7c64322a5bcefd190df40b284a4eb918.js": "/precache-manifest.7c64322a5bcefd190df40b284a4eb918.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c1e385bc.chunk.css.map": "/static/css/main.c1e385bc.chunk.css.map",
+    "static/js/2.5d691298.chunk.js.LICENSE": "/static/js/2.5d691298.chunk.js.LICENSE",
+    "static/media/index.css": "/static/media/Roboto.df7b648c.ttf",
+    "static/media/course.jpg": "/static/media/course.3f9b77c2.jpg",
+    "static/media/logo.png": "/static/media/logo.ebff7904.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b910407d.js",
+    "static/js/2.5d691298.chunk.js",
+    "static/css/main.c1e385bc.chunk.css",
+    "static/js/main.b2e6e88d.chunk.js"
+  ]
+}

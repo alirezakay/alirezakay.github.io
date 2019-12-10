@@ -1,0 +1,44 @@
+{
+  "about": {
+    "contact": {
+      "Email": {"text": "f.sheikhi [at sign] kntu.ac.ir", "icon": "far fa-envelope"},
+      "Phone": {"text": "(+98 21) – 84062450-414", "icon": "fas fa-phone"},
+      "P.O.Box": {"text": "16315-1355", "icon": "fas fa-mail-bulk"},
+      "Postal Code": {"text": "14317-14191", "icon": "fas fa-map-pin"}
+    },
+    "descriptionTitle": "",
+    "description": [
+      "<b>Assistant Professor</b>",
+      "Faculty of Computer Engineering",
+      "<a href='https://ce.kntu.ac.ir'>K. N. Toosi University of Technology</a>",
+      "Seyyed Khandan, Tehran, Iran"
+    ]
+  },
+  "extras": [
+    {
+      "title": "Research Interests",
+      "icon": "far fa-grin-hearts",
+      "items": [
+        ["Computational Geometry", "https://example.com"],
+        ["Approximation and randomized algorithms", ""],
+        ["Algorithmic Graph Theory", ""]
+      ]
+    },
+    {
+      "title": "Program committees",
+      "icon": "fas fa-circle-notch",
+      "items": [
+        ["3rd Iranian Conference on Computational Geometry (ICCG 2020)", ""],
+        ["Iranian Conference on Informatics (NIC 1398)", ""]
+      ]
+    },
+    {
+      "title": "Organizing committees",
+      "icon": "fas fa-spinner",
+      "items": [
+        ["30th International Olympiad in Informatics (as Technical Committee Member) (IOI 2018)", ""],
+        ["2nd-8th Winter School on Computational Geometry (WSCG 2008 – WSCG 2016)", ""]
+      ]
+    }
+  ]
+}

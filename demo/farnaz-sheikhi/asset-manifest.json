@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/demo/farnaz-sheikhi/static/css/main.3a56cfc6.chunk.css",
-    "main.js": "/demo/farnaz-sheikhi/static/js/main.d00540b8.chunk.js",
-    "main.js.map": "/demo/farnaz-sheikhi/static/js/main.d00540b8.chunk.js.map",
+    "main.css": "/demo/farnaz-sheikhi/static/css/main.82ef2e10.chunk.css",
+    "main.js": "/demo/farnaz-sheikhi/static/js/main.f65d703f.chunk.js",
+    "main.js.map": "/demo/farnaz-sheikhi/static/js/main.f65d703f.chunk.js.map",
     "runtime-main.js": "/demo/farnaz-sheikhi/static/js/runtime-main.45a7cbd6.js",
     "runtime-main.js.map": "/demo/farnaz-sheikhi/static/js/runtime-main.45a7cbd6.js.map",
     "static/js/2.5d691298.chunk.js": "/demo/farnaz-sheikhi/static/js/2.5d691298.chunk.js",
     "static/js/2.5d691298.chunk.js.map": "/demo/farnaz-sheikhi/static/js/2.5d691298.chunk.js.map",
     "index.html": "/demo/farnaz-sheikhi/index.html",
-    "precache-manifest.64d7831b20e1468468adc0238a771bb5.js": "/demo/farnaz-sheikhi/precache-manifest.64d7831b20e1468468adc0238a771bb5.js",
+    "precache-manifest.9f847fa6cbb5537d2a441f67b40e9ae5.js": "/demo/farnaz-sheikhi/precache-manifest.9f847fa6cbb5537d2a441f67b40e9ae5.js",
     "service-worker.js": "/demo/farnaz-sheikhi/service-worker.js",
-    "static/css/main.3a56cfc6.chunk.css.map": "/demo/farnaz-sheikhi/static/css/main.3a56cfc6.chunk.css.map",
+    "static/css/main.82ef2e10.chunk.css.map": "/demo/farnaz-sheikhi/static/css/main.82ef2e10.chunk.css.map",
     "static/js/2.5d691298.chunk.js.LICENSE": "/demo/farnaz-sheikhi/static/js/2.5d691298.chunk.js.LICENSE",
     "static/media/index.css": "/demo/farnaz-sheikhi/static/media/Roboto.df7b648c.ttf",
     "static/media/course.jpg": "/demo/farnaz-sheikhi/static/media/course.3f9b77c2.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.45a7cbd6.js",
     "static/js/2.5d691298.chunk.js",
-    "static/css/main.3a56cfc6.chunk.css",
-    "static/js/main.d00540b8.chunk.js"
+    "static/css/main.82ef2e10.chunk.css",
+    "static/js/main.f65d703f.chunk.js"
   ]
 }

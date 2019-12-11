@@ -10,23 +10,23 @@
     "description": [
       "<b>Assistant Professor</b>",
       "Faculty of Computer Engineering",
-      "<a href='https://ce.kntu.ac.ir'>K. N. Toosi University of Technology</a>",
+      "<a href='http://en.ce.kntu.ac.ir'>K. N. Toosi University of Technology</a>",
       "Seyyed Khandan, Tehran, Iran"
     ]
   },
   "extras": [
     {
       "title": "Research Interests",
-      "icon": "far fa-grin-hearts",
+      "icon": "far fa-square",
       "items": [
-        ["Computational Geometry", "https://example.com"],
+        ["Computational Geometry", ""],
         ["Approximation and randomized algorithms", ""],
         ["Algorithmic Graph Theory", ""]
       ]
     },
     {
       "title": "Program committees",
-      "icon": "fas fa-circle-notch",
+      "icon": "far fa-square",
       "items": [
         ["3rd Iranian Conference on Computational Geometry (ICCG 2020)", ""],
         ["Iranian Conference on Informatics (NIC 1398)", ""]
@@ -34,7 +34,7 @@
     },
     {
       "title": "Organizing committees",
-      "icon": "fas fa-spinner",
+      "icon": "far fa-square",
       "items": [
         ["30th International Olympiad in Informatics (as Technical Committee Member) (IOI 2018)", ""],
         ["2nd-8th Winter School on Computational Geometry (WSCG 2008 – WSCG 2016)", ""]

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.cb6e650c.chunk.css",
+    "main.js": "./static/js/main.f0168c8b.chunk.js",
+    "main.js.map": "./static/js/main.f0168c8b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a360f84a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a360f84a.js.map",
+    "static/js/2.731517f6.chunk.js": "./static/js/2.731517f6.chunk.js",
+    "static/js/2.731517f6.chunk.js.map": "./static/js/2.731517f6.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.bfe149de5a0342b064f4ca8a218a7336.js": "./precache-manifest.bfe149de5a0342b064f4ca8a218a7336.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.cb6e650c.chunk.css.map": "./static/css/main.cb6e650c.chunk.css.map",
+    "static/js/2.731517f6.chunk.js.LICENSE": "./static/js/2.731517f6.chunk.js.LICENSE",
+    "static/media/index.css": "./static/media/IRANSansFaNum.034ca0f6.ttf",
+    "static/media/Section4.scss": "./static/media/plant.40743ba9.svg",
+    "static/media/Section1.scss": "./static/media/cloud-star-group.9426f8b8.svg",
+    "static/media/Section2.scss": "./static/media/cloud-star-group2.dff278aa.svg",
+    "static/media/triangle.svg": "./static/media/triangle.223b51da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a360f84a.js",
+    "static/js/2.731517f6.chunk.js",
+    "static/css/main.cb6e650c.chunk.css",
+    "static/js/main.f0168c8b.chunk.js"
+  ]
+}

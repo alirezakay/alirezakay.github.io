@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.cb6e650c.chunk.css",
-    "main.js": "./static/js/main.f0168c8b.chunk.js",
-    "main.js.map": "./static/js/main.f0168c8b.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.a360f84a.js",
-    "runtime-main.js.map": "./static/js/runtime-main.a360f84a.js.map",
-    "static/js/2.731517f6.chunk.js": "./static/js/2.731517f6.chunk.js",
-    "static/js/2.731517f6.chunk.js.map": "./static/js/2.731517f6.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.bfe149de5a0342b064f4ca8a218a7336.js": "./precache-manifest.bfe149de5a0342b064f4ca8a218a7336.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.cb6e650c.chunk.css.map": "./static/css/main.cb6e650c.chunk.css.map",
-    "static/js/2.731517f6.chunk.js.LICENSE": "./static/js/2.731517f6.chunk.js.LICENSE",
-    "static/media/index.css": "./static/media/IRANSansFaNum.034ca0f6.ttf",
-    "static/media/Section4.scss": "./static/media/plant.40743ba9.svg",
-    "static/media/Section1.scss": "./static/media/cloud-star-group.9426f8b8.svg",
-    "static/media/Section2.scss": "./static/media/cloud-star-group2.dff278aa.svg",
-    "static/media/triangle.svg": "./static/media/triangle.223b51da.svg"
+    "main.css": "/demo/clean-up/static/css/main.0461e4cc.chunk.css",
+    "main.js": "/demo/clean-up/static/js/main.59ecf21b.chunk.js",
+    "main.js.map": "/demo/clean-up/static/js/main.59ecf21b.chunk.js.map",
+    "runtime-main.js": "/demo/clean-up/static/js/runtime-main.eee7652f.js",
+    "runtime-main.js.map": "/demo/clean-up/static/js/runtime-main.eee7652f.js.map",
+    "static/js/2.731517f6.chunk.js": "/demo/clean-up/static/js/2.731517f6.chunk.js",
+    "static/js/2.731517f6.chunk.js.map": "/demo/clean-up/static/js/2.731517f6.chunk.js.map",
+    "index.html": "/demo/clean-up/index.html",
+    "precache-manifest.bc4d831145be85af6b9f1719bc5a6964.js": "/demo/clean-up/precache-manifest.bc4d831145be85af6b9f1719bc5a6964.js",
+    "service-worker.js": "/demo/clean-up/service-worker.js",
+    "static/css/main.0461e4cc.chunk.css.map": "/demo/clean-up/static/css/main.0461e4cc.chunk.css.map",
+    "static/js/2.731517f6.chunk.js.LICENSE": "/demo/clean-up/static/js/2.731517f6.chunk.js.LICENSE",
+    "static/media/index.css": "/demo/clean-up/static/media/IRANSansFaNum.034ca0f6.ttf",
+    "static/media/Section4.scss": "/demo/clean-up/static/media/plant.40743ba9.svg",
+    "static/media/Section1.scss": "/demo/clean-up/static/media/cloud-star-group.9426f8b8.svg",
+    "static/media/Section2.scss": "/demo/clean-up/static/media/cloud-star-group2.dff278aa.svg",
+    "static/media/triangle.svg": "/demo/clean-up/static/media/triangle.223b51da.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a360f84a.js",
+    "static/js/runtime-main.eee7652f.js",
     "static/js/2.731517f6.chunk.js",
-    "static/css/main.cb6e650c.chunk.css",
-    "static/js/main.f0168c8b.chunk.js"
+    "static/css/main.0461e4cc.chunk.css",
+    "static/js/main.59ecf21b.chunk.js"
   ]
 }

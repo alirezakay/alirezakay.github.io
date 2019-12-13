@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/demo/clean-up/static/css/main.0461e4cc.chunk.css",
+    "main.css": "/demo/clean-up/static/css/main.ba6a7517.chunk.css",
     "main.js": "/demo/clean-up/static/js/main.59ecf21b.chunk.js",
     "main.js.map": "/demo/clean-up/static/js/main.59ecf21b.chunk.js.map",
     "runtime-main.js": "/demo/clean-up/static/js/runtime-main.eee7652f.js",
@@ -8,9 +8,9 @@
     "static/js/2.731517f6.chunk.js": "/demo/clean-up/static/js/2.731517f6.chunk.js",
     "static/js/2.731517f6.chunk.js.map": "/demo/clean-up/static/js/2.731517f6.chunk.js.map",
     "index.html": "/demo/clean-up/index.html",
-    "precache-manifest.bc4d831145be85af6b9f1719bc5a6964.js": "/demo/clean-up/precache-manifest.bc4d831145be85af6b9f1719bc5a6964.js",
+    "precache-manifest.b5d9ddd17afa9943eea80fedda52030c.js": "/demo/clean-up/precache-manifest.b5d9ddd17afa9943eea80fedda52030c.js",
     "service-worker.js": "/demo/clean-up/service-worker.js",
-    "static/css/main.0461e4cc.chunk.css.map": "/demo/clean-up/static/css/main.0461e4cc.chunk.css.map",
+    "static/css/main.ba6a7517.chunk.css.map": "/demo/clean-up/static/css/main.ba6a7517.chunk.css.map",
     "static/js/2.731517f6.chunk.js.LICENSE": "/demo/clean-up/static/js/2.731517f6.chunk.js.LICENSE",
     "static/media/index.css": "/demo/clean-up/static/media/IRANSansFaNum.034ca0f6.ttf",
     "static/media/Section4.scss": "/demo/clean-up/static/media/plant.40743ba9.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.eee7652f.js",
     "static/js/2.731517f6.chunk.js",
-    "static/css/main.0461e4cc.chunk.css",
+    "static/css/main.ba6a7517.chunk.css",
     "static/js/main.59ecf21b.chunk.js"
   ]
 }

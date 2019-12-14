@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5703e2a42da912c448e08f7b727ebb5c",
+    "revision": "08f92e43683b6b59db5461577bd07288",
     "url": "/demo/farnaz-sheikhi/index.html"
   },
   {
-    "revision": "587692c3e3ccb1d88379",
-    "url": "/demo/farnaz-sheikhi/static/css/main.82ef2e10.chunk.css"
+    "revision": "013e5e14fe5a30d3306e",
+    "url": "/demo/farnaz-sheikhi/static/css/main.716946e6.chunk.css"
   },
   {
     "revision": "f03a3017c20b10a60853",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demo/farnaz-sheikhi/static/js/2.5d691298.chunk.js.LICENSE"
   },
   {
-    "revision": "587692c3e3ccb1d88379",
-    "url": "/demo/farnaz-sheikhi/static/js/main.f65d703f.chunk.js"
+    "revision": "013e5e14fe5a30d3306e",
+    "url": "/demo/farnaz-sheikhi/static/js/main.9d8fe3d3.chunk.js"
   },
   {
     "revision": "9ccda17237c447a8cbdf",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/demo/farnaz-sheikhi/static/media/course.3f9b77c2.jpg"
   },
   {
-    "revision": "ebff7904436516bad20042d9e5bd2a37",
-    "url": "/demo/farnaz-sheikhi/static/media/logo.ebff7904.png"
+    "revision": "be6a6cdc4becfa8bfff08bcf7bb26959",
+    "url": "/demo/farnaz-sheikhi/static/media/logo.be6a6cdc.png"
   }
 ]);

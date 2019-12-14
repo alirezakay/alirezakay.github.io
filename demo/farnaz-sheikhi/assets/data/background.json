@@ -1,7 +1,7 @@
 [
   {
     "title": "Education",
-    "icon": "fas fa-graduation-cap",
+    "icon": "fas fa-square fa-sm",
     "items": [
       ["Ph.D. in Computer Science, Amirkabir University of Technology, 2010-2016.", ""],
       ["M.Sc. in Computer Science, Amirkabir University of Technology, 2008-2010.", ""],
@@ -10,7 +10,7 @@
   },
   {
     "title": "Academic and Professional Experiences",
-    "icon": "fas fa-briefcase",
+    "icon": "fas fa-square fa-sm",
     "items": [
       ["Postdoc in Computer Science, Institute for Research in Fundamental Sciences (IPM), 2018-2019.", ""],
       ["Visiting Researcher, Department of Computer Science, Eindhoven University of Technology, the Netherlands, 2013.", ""]
@@ -18,7 +18,7 @@
   },
   {
     "title": "Honors and Awards",
-    "icon": "fas fa-award",
+    "icon": "fas fa-square fa-sm",
     "items": [
       ["The best lecturer in the faculty, and the 5th best lecturer in the university according to students evaluation, Amirkabir University of Technology, 2017.", ""],
       ["Top student during the Ph.D. degree, Amirkabir University of Technology, 2016.", ""],

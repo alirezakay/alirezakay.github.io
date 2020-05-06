@@ -30,7 +30,7 @@ $(function(){
     if (val === 0){
       grade = 0;
     }
-    else if (val < 30){
+    else if (val < 25){
       grade = 30;
     }
     else{

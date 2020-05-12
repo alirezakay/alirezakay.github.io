@@ -30,11 +30,11 @@ $(function(){
     if (val === 0){
       grade = 0;
     }
-    else if (val < 25){
+    else if (val < 30){
       grade = 30;
     }
     else{
-      grade = Math.ceil(0.2 * val + 80);
+      grade = Math.ceil(0.17 * val + 83);
     }
     result.text(grade);
   });

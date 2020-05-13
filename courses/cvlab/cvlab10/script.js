@@ -12,6 +12,8 @@ $(function(){
       console.log("DOODLE TIME SELECTION HAS BEEN ENDED!");
       clearInterval(inter);
       $("#doodle").attr("href", "https://doodle.com").addClass("disabled").text("Doodle Time Selection Link (EXPIRED)");
+      exp.html(`<b>0</b> days <b>0</b> hours <b>0</b> mins <b>0</b> secs`);
+      return;
     }
     let days = dur/(24*60*60);
     let hours = (days - Math.floor(days)) * 24;

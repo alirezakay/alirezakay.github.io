@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project (1) | Chart</title>
+  <meta name="description" content="This project is under MIT License by @alirezakay 2019">
+  <meta name="author" content="Alireza Kavian">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/index.min.css">
+</head>
+
+<body>
+  <div id="root">
+    <div class="relative">
+      <div class="absolute">
+        <div id="values"></div>
+      </div>
+      <div id="charts"></div>
+      <div class="absolute">
+        <div id="time"></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="divider"></div>
+    
+    <div id="buttons">
+      <button id="zoomin"><i class="fa fa-search-plus"></i></button>
+      <button id="reset-scale">Reset</button>
+      <button id="zoomout"><i class="fa fa-search-minus"></i></button>
+    </div>
+    <div id="scale"></div>
+  </div>
+
+  <div id="prev" class="prev-next-buttons"><i class="fa fa-chevron-left"></i></div>
+  <div id="next" class="prev-next-buttons"><i class="fa fa-chevron-right"></i></div>
+
+  <div class="bottom-buttons">
+    <div class="modal-btn" id="desc-btn"></div>
+    <div class="modal-btn" id="info-btn"><i class="fa fa-info"></i></div>
+  </div>
+
+  <div class="modal d-none" id="desc"></div>
+  <div class="modal d-none" id="info">
+    <div>
+      <bdi><a target="_blank" href="https://alireza-kavian.github.io">Alireza Kavian</a></bdi>
+      <bdi>© All rights reserved</bdi>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <bdi>Project of Internet Engineering (Summer 2019)</bdi>
+      <ul>
+        <li>Instructor: Eng. Mahdi Zamanian</li>
+        <li>College: K. N. Toosi University of Tenchnology</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.4.1.min.js"></script>
+  <script src="./assets/js/funcs.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

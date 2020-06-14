@@ -74,7 +74,7 @@ $(() => {
     closeModals();
     descFlag = !descFlag;
     if (descFlag) {
-      $.getJSON("../assets/data/chart.json", (data) => {
+      $.getJSON("./assets/data/chart.json", (data) => {
         const xTitle = data[chartNum].x.title;
         const yTitle = data[chartNum].y.title;
         const desc = data[chartNum].desc;
@@ -120,7 +120,7 @@ $(() => {
 
 const init = (props) => {
   $("#desc-btn").html(`Chart <b style="color: #777">${props.chartNum + 1}</b> Description`);
-  $.getJSON("../assets/data/chart.json", (data) => {
+  $.getJSON("./assets/data/chart.json", (data) => {
     window.noc = data.length; // number of charts in json data file
   });
   injectData(props, true);

@@ -142,7 +142,7 @@ const injectData = (props, init) => {
   s = Math.round(s * 10) / 10;
   if(init) window.graphs = [];
 
-  $.getJSON("/assets/data/chart.json", (data) => {
+  $.getJSON("./assets/data/chart.json", (data) => {
     $("#scale").text(`${s}x`);
     data.map((d, i) => {
       let chart = "";

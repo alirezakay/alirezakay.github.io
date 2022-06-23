@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wide Selected Dataset</title>
+  <link rel="icon" type="image/x-icon" href="./icon.png">
+  <meta property="og:title" content="Wide Selected Dataset" />
+  <meta property="og:url" content="https://alirezakay.github.io/courses/cv/" />
+  <meta property="og:image" content="https://alirezakay.github.io/courses/cv/logo.jpg" />
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <style>
+    .background {
+      width: 100%;
+      min-height: 100vh;
+      background-color: #000;
+      background-image: url('./cover.jpg');
+      background-size: auto 75%;
+      background-position: -300px bottom;
+      background-repeat: no-repeat;
+    }
+
+    .container {
+      min-height: 100vh;
+    }
+
+    .root {
+      position: relative;
+    }
+
+    .card {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 500px;
+
+    }
+
+    .card-body {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .float-left {
+      text-decoration: none;
+      color: inherit;
+      flex-grow: 2;
+      margin-left: 17px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: rgba(222, 222, 222, 0.15);
+      padding: 7px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 17px;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.25);
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+    }
+
+    .float-right {
+      flex-grow: 3;
+      margin-left: 17px;
+    }
+
+    @media only screen and (max-width: 960px) {
+      .background {
+        background-size: auto 45%;
+        background-position: -200px bottom;
+      }
+
+      .card {
+        background-color: transparent !important;
+      }
+
+      .card-body {
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 7px;
+      }
+
+      .float-left {
+        padding-right: 17px;
+        margin-left: 0;
+      }
+
+      .float-right {
+        margin-left: 0;
+        margin-top: 11px;
+      }
+
+      .alert {
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .card {
+        top: 0;
+        max-width: 320px;
+      }
+
+      .description {
+        padding: 7px;
+        padding-left: 32px;
+        font-size: 0.85em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <div class="container fluid">
+      <div class="root">
+        <div class="alert alert-info text-light text-center">
+          <strong>Selected Frontal Faces of Wider Dataset!</strong>
+        </div>
+      </div>
+      <div class="root">
+        <div class="card bg-info text-secondary mb-3">
+          <div class="card-header">Description</div>
+          <div class="card-body">
+            <a href="https://pixeldrain.com/u/3H8onPeJ" class="float-left">
+              <div class="icon">
+                <i class="fa-solid fa-file-zipper fa-lg"></i>
+              </div>
+              <div class="info">
+                <small>WiderSelected.zip</small>
+                <small class="size badge bg-transparent">298MB</small>
+              </div>
+            </a>
+            <div class="float-right">
+              <div class="bread">
+                <div><i class="fa-solid fa-folder-open fa-sm"></i> WiderSelected/</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-folder fa-sm"></i> train</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-file-lines"></i> annotations.txt</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-file-lines"></i> README.md</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-header description">
+            <small>
+              <blockquote><b>2748</b> Frontal Face Images annotated with boundary box positions and 68 landmark
+                key points</blockquote>
+              <p>
+                This dataset is made based on images and annotations related to Train dataset of wider face image.
+                There are 61 directories inside of train folder which are pruned, cleansed, and reannotated.
+                The new annotation is a mixing of the previous annotation (x y w h part) and the landmark key points
+                listed right back-to-back each other delimited by space (68 x y points)
+              </p>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/solid.min.js"></script>
+</body>
+
+</html>
